@@ -1,0 +1,53 @@
+ul {
+               list-style-type: none;
+               margin: 0;
+               padding: 15px 10px;
+               background: black;
+               text-decoration-color: white;
+}
+
+li {
+                display: inline;
+                background-color: inherit;
+                color: white;
+                padding: 15px 10px;
+                text-align: left;
+                cursor: pointer;
+                transition: 0.3s;
+                font-size: 17px;
+}
+            
+li:hover {
+                background-color: #808080;
+}
+            
+            
+      
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited {
+                color: white;
+    text-decoration: none;  
+}
+
+.active {
+                background-color: blue;
+}
+
+ body{
+                
+                width:100%;
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+     background: #202020;
+            
+            }
